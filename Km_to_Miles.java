@@ -1,13 +1,23 @@
 class Km_to_Miles extends ConsoleProgram {
 
   /**
-  * Description
-  * @author:
+  * A program that takes an input in kilometers and converts it to miles
+  * @author: Austin Lian
   */
   
   public void run() {
-    // your code goes here
-    
+    // Initialize variables
+    double dblKilometers;
+    double dblMiles;
+
+    // Get inputs (Kilometers)
+    dblKilometers = readDouble("Enter the distance in kilometers: ");
+
+    // Calculate Miles
+    dblMiles = dblKilometers * 0.621371;
+
+    // Output results
+    System.out.println(dblKilometers + " kilometers is " + dblMiles + " miles");
     
   }
 }
