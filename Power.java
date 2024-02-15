@@ -19,7 +19,7 @@ class Power extends ConsoleProgram {
     // Calculate a^b
     intPower = (int) Math.pow(intA, intB);
 
-    // Output results
+    // Output a^b
     System.out.println(intA + " to the power of " + intB + " is " + intPower);
     
   }
