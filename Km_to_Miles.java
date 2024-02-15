@@ -16,7 +16,7 @@ class Km_to_Miles extends ConsoleProgram {
     // Calculate Miles
     dblMiles = dblKilometers * 0.621371;
 
-    // Output results
+    // Output miles
     System.out.println(dblKilometers + " kilometers is " + dblMiles + " miles");
     
   }
