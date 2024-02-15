@@ -21,7 +21,7 @@ class Minutes extends ConsoleProgram {
     intHours = (intMinutes % 1440) / 60;
     intMinutesRemainder = intMinutes % 60;
 
-    // Output results
+    // Output converted minutes
     System.out.println(intMinutes + " minutes is " + intDays + " days, " + intHours + " hours, and " + intMinutesRemainder + " minutes");
     
   }
