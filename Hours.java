@@ -19,7 +19,7 @@ class Hours extends ConsoleProgram {
     intDays = intHours / 24;
     intHoursRemainder = intHours % 24;
 
-    // Output results
+    // Output converted hours
     System.out.println(intHours + " hours is " + intDays + " days and " + intHoursRemainder + " hours");
   }
 }
