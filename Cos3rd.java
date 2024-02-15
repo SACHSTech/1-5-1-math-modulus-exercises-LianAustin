@@ -21,7 +21,7 @@ class Cos3rd extends ConsoleProgram {
     // Calculate Side C
     dblSideC = Math.sqrt(Math.pow(dblSideA, 2) + Math.pow(dblSideB, 2) - 2 * dblSideA * dblSideB * Math.cos(Math.toRadians(dblAngle)));
 
-    // Output results
+    // Output third side
     System.out.println("The length of the third side is " + dblSideC);
     
   }
