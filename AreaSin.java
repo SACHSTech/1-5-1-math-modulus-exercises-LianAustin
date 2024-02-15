@@ -20,7 +20,7 @@ class AreaSin extends ConsoleProgram {
     // Calculate Area
     dblArea = (dblSideA * dblSideB * Math.sin(Math.toRadians(dblAngle))) / 2;
 
-    // Output results
+    // Output Area
     System.out.println("The area of the triangle is " + dblArea);
     
   }
