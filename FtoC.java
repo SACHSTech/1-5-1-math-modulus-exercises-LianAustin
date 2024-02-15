@@ -17,7 +17,7 @@ class FtoC extends ConsoleProgram {
     // Calculate Celsius
     dblCelsius = (dblFahrenheit - 32) * 5 / 9;
 
-    // Output results
+    // Output Celsius
     System.out.println(dblFahrenheit + " degrees Fahrenheit is " + dblCelsius + " degrees Celsius");
     
   }
